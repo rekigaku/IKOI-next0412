@@ -1,0 +1,31 @@
+.radio-primary {
+    margin-right: 8px;
+    cursor: pointer;
+  }
+  
+  p {
+    font-size: 16px;
+    color: #333;
+    display: flex;
+    align-items: center;
+  }
+  
+  label {
+    cursor: pointer;
+    transition: color 0.3s ease;
+  }
+  
+  label:hover {
+    color: #007bff;
+  }
+  
+  .radio-primary:checked + label {
+    color: #007bff;
+  }
+  
+  .label-text{
+    font-size: 20px;
+    margin-right: 8dvh;
+
+
+  }

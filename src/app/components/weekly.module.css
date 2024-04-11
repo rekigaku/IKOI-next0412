@@ -1,0 +1,48 @@
+
+  
+.btn {
+    font-size: 1rem; /* シンプルで洗練されたサイズ */
+    margin-right: 1rem; /* より洗練された間隔 */
+    background-color: #0A9396;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 5px; /* やや丸みを帯びた形状 */
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #94D2BD; /* ホバー時の色 */
+  }
+  
+
+  
+  .progressBarContainer {
+    width: 100%;
+    background-color: #dadada; /* プログレスバーの背景色 */
+    border-radius: 5px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.06);
+  }
+  
+  .progressBar {
+    background-image: linear-gradient(to right, #EF476F, #FFD166); /* 洗練されたグラデーション */
+    border-radius: 5px;
+  }
+  
+  .footer {
+    background-color: #073042; /* フッターの背景色もナビバーに合わせる */
+    color: #ffffff;
+  }
+
+
+.navbar {
+    background-color: #ffffff; /* bg-base-100 に相当する色 */
+  }
+  
+
+.card {
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 0.5rem; /* rounded-lg に相当 */
+    border: 1px solid #e5e7eb; /* border-gray-200 に相当 */
+}
+

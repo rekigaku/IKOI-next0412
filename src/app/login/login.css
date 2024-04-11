@@ -1,0 +1,42 @@
+/* .container2 {
+    display: flex; 
+    justify-content: center;
+    height: 100vh;
+    margin-top: 500vh;
+  } */
+  
+
+
+
+
+   :root {
+    --primary-color: #4f46e5; /* 主要カラー
+    --background-color: #f3f4f6; /* 背景色 */
+    --text-color: #1f2937; /* テキスト色 */
+    --error-color: #dc2626; /* エラーカラー */
+  }
+  
+  body {
+    font-family: 'Arial', sans-serif; /* フォントの更新 */
+  }
+  
+  input:focus, button:focus {
+    outline: none;
+    box-shadow: 0 0 0 2px var(--primary-color);
+  }
+  
+  .btn-primary {
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: darken(var(--primary-color), 10%);
+  }
+   
